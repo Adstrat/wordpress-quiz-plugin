@@ -1,0 +1,27 @@
+.quiz-edit-block {
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid #577fa9;
+  background-color: #f0fbfd;
+
+  .mark-as-correct {
+    color: #ffd700;
+    position: relative;
+    top: -3px;
+    transition: transform 0.3s ease-out;
+
+    &:hover {
+      transform: scale(1.25) rotate(12deg);
+    }
+  }
+
+  .delete {
+    color: #ff0000;
+    position: relative;
+    top: -5px;
+
+    &:hover {
+      color: #c20000 !important;
+    }
+  }
+}
