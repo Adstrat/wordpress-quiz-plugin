@@ -5,7 +5,7 @@
   border: 1px solid #dbdbdb;
   padding: 20px;
   border-radius: 4px;
-  margin-bottom: 35px;
+  margin: 35px;
 
   p {
     font-size: 1.55rem;
@@ -86,7 +86,7 @@
     transform-origin: 50% 50%;
 
     &--visible {
-      animation: 2.6s showModal;
+      animation: 1.5s showModal;
     }
 
     svg {

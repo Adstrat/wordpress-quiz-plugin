@@ -8,7 +8,7 @@
   border: 1px solid #dbdbdb;
   padding: 20px;
   border-radius: 4px;
-  margin-bottom: 35px;
+  margin: 35px;
 }
 .quiz-frontend p {
   font-size: 1.55rem;
@@ -82,8 +82,8 @@
 }
 .quiz-frontend .correct-message--visible,
 .quiz-frontend .incorrect-message--visible {
-  -webkit-animation: 2.6s showModal;
-          animation: 2.6s showModal;
+  -webkit-animation: 1.5s showModal;
+          animation: 1.5s showModal;
 }
 .quiz-frontend .correct-message svg,
 .quiz-frontend .incorrect-message svg {
